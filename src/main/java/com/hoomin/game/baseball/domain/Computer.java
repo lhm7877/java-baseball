@@ -9,11 +9,11 @@ import java.util.List;
  */
 public class Computer {
 	public Numbers makeRightNumbers() {
-		final List<Integer> subNumberCandidateList = generateNumberList();
+		final List<Integer> subNumberCandidateList = generateIntegerList();
 		return new Numbers(subNumberCandidateList);
 	}
 
-	protected List<Integer> generateNumberList() {
+	private List<Integer> generateIntegerList() {
 		final List<Integer> numberCandidateList = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
 		Collections.shuffle(numberCandidateList);
 		return numberCandidateList.subList(0, 3);

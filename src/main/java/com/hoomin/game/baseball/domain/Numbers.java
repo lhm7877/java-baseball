@@ -39,6 +39,9 @@ public class Numbers {
 	}
 
 	public Hints compareNumbers(Numbers inputNumbers) {
+		Integer integer = new Integer();
+		integer.compareTo()
+		integer.equals(new Integer())
 		Hints hints = new Hints();
 		for (int i = 0; i < this.numberList.size(); i++) {
 			hints.add(compareElement(i, inputNumbers.numberList));
